@@ -86,6 +86,17 @@ The final output of the script summarizes the fundamental trade-offs in PQC:
 
 Security vs. Size: Higher security levels (e.g., ML-KEM-1024) require significantly larger public keys and ciphertexts, increasing the amount of data that must be transmitted for the key exchange.
 Security vs. Performance: The computational complexity increases with the security level, making key generation and encapsulation/decapsulation slower for higher-security variants.
+
+### 📄 Research Paper
+
+A detailed academic paper describing the implementation and analysis of this Post-Quantum Exchange system is available in this repository:
+
+[**Post-Quantum Key Exchange: A Practical Implementation and Analysis of ML-KEM (Kyber)**](./Paper/main.pdf)
+
+This paper covers:
+- Theoretical background on Module Lattice-Based Key Encapsulation.
+- Design of the hybrid encryption scheme.
+- Comprehensive performance evaluation (Key sizes, Latency) for ML-KEM-512, 768, and 1024.
 README for the Python Port Scanner Script
 Python Port Scanner with Basic and Nmap Modes
 This repository contains a versatile network port scanning tool written in Python. It is designed for both quick checks and in-depth analysis by offering two distinct scanning modes:
